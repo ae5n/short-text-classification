@@ -642,7 +642,7 @@ def main():
         else:
             name = model
 
-        wandb.init(project='Bachelor-Thesis',
+        wandb.init(project='OSHA-Clsffctn',
                    name=name,
                    config=vars(args))
         config = wandb.config
