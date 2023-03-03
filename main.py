@@ -38,7 +38,7 @@ MODELS = {
     "LSTM": "bert-base-uncased",
 }
 
-VALID_DATASETS = ['MR', 'R8', 'SearchSnippets', 'Twitter', 'TREC', 'SST2', 'NICE', 'NICE2', 'STOPS', 'STOPS2']
+VALID_DATASETS = ['OSHA', 'MR', 'R8', 'SearchSnippets', 'Twitter', 'TREC', 'SST2', 'NICE', 'NICE2', 'STOPS', 'STOPS2']
 VALID_MODELS = list(MODELS.keys()) + ["STACKING", "WEIGHTED_BOOST", "WEIGHTED"]
 
 
