@@ -642,7 +642,7 @@ def main():
         else:
             name = model
 
-        wandb.init(project='OSHA-Clsffctn',
+        wandb.init(project='OSHA-Clssfctn',
                    name=name,
                    config=vars(args))
         config = wandb.config
