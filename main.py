@@ -14,7 +14,7 @@ from tqdm import tqdm, trange
 from transformers import get_linear_schedule_with_warmup, AdamW, AutoModelForSequenceClassification, Trainer, \
     TrainingArguments, AutoTokenizer
 
-from ensemble_models import SimplifiedStacking, SimplifiedWeightedBoost, WeightedEnsemble
+from Ensemble_models import SimplifiedStacking, SimplifiedWeightedBoost, WeightedEnsemble
 from data import Dataset, SimpleDataset, load_data, load_pretrained_embeddings, build_tokenizer_for_word_embeddings, \
     prepare_data_custom_tokenizer, prepare_data
 from models import MLP, collate_for_mlp, LSTM, collate_for_lstm
